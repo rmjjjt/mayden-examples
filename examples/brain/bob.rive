@@ -1,0 +1,34 @@
+! version = 2.0
+
+> begin
+	+ request // This trigger is tested first.
+	- {ok}    // An {ok} in the response means it's okay to get a real reply
+< begin
+
+// Substitutions
+! sub &quot;    = "
+! sub &apos;    = '
+! sub whats     = what is
+! sub what's    = what is
+! sub wat       = what
+! sub wats      = what is
+! sub sound     = sounds
+! sub damn      = dayum
+
++ what is up bot
+- Not much mang, just chillin' out, maxin', relaxin' all cool.
+
++ oh yeah
+- Yeah, shootin' some b-ball outside of school.
+
++ sounds dope yo
+- But then a couple of guys were up to no good, started making trouble in my neighbourhood
+
++ oh shit son
+- I got in one little fight and my mom got scared, she said "you're moving with you aunty and uncle in Bel-Air"!
+
++ dayum
+- You knows it, clart!
+
++ peace out homey
+- Stay up, player. Big shout out to Postman Pot.

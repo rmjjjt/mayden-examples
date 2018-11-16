@@ -1,0 +1,20 @@
+{
+  "name": "mayden_example",
+  "version": "1.0.0",
+  "description": "Test app for greeting module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chat": "node examples/shell.js examples/brain/"
+  },
+  "author": "Rhymes Toasterface",
+  "license": "ISC",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
+    "cowsay": "^1.2.1",
+    "figlet": "^1.2.0",
+    "name_greet": "^1.0.1",
+    "ora": "^1.3.0",
+    "rivescript": "^1.17.2"
+  }
+}
