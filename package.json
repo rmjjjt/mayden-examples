@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "chat": "node examples/shell.js examples/brain/"
+    "chat": "node examples/shell.js examples/brain/",
+    "cow": "node ./examples/cow.js",
+    "challenge": "node ./examples/challenge.js",
+    "faces": "node ./examples/faces.js",
+    "figlet": "node ./examples/figlet.js",
+    "spinner": "node ./examples/spinner.js",
+    "greet": "node ./index.js"
   },
   "author": "Rhymes Toasterface",
   "license": "ISC",
